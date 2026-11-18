@@ -1,5 +1,7 @@
 # Turn-Based Combat Core — Architecture Sample
 
+**Gameplay Demo (VK Video):** https://vkvideo.ru/video-147020798_456239035
+
 Core Turn-Based Battle System extracted from the commercial RPG project **"The Prophecy of Horn"** (released on VK Play, coming to Steam).
 
 This repository demonstrates how a monolithic production combat manager was decoupled into a clean, testable, asynchronous state machine using interfaces, adapters, and serialized interface references resolved at Awake — without breaking existing game architecture.
